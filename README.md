@@ -1,4 +1,4 @@
-# Автоматизация контроля качества
+<img width="656" height="219" alt="image" src="https://github.com/user-attachments/assets/404a7091-a649-4b97-877b-84c04f575bba" /># Автоматизация контроля качества
 
 [![Quality Pipeline](https://github.com/denisok37/quality-demo/actions/workflows/quality.yml/badge.svg)](https://github.com/denisok37/quality-demo/actions/workflows/quality.yml)
 
@@ -11,10 +11,10 @@
 ## Скриншоты
 
 ### Успешный запуск пайплайна
-![alt text](image-1.png)
+
 
 ### Сработавший Quality Gate (провал)
-![alt text](image-2.png)
+
 
 ## Вывод
 Автоматизация позволила автоматически проверять качество кода при каждом коммите. 
