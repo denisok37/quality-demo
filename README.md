@@ -14,6 +14,7 @@
 <img width="656" height="219" alt="image" src="https://github.com/user-attachments/assets/404a7091-a649-4b97-877b-84c04f575bba" />
 
 ### Сработавший Quality Gate (провал)
+<img width="1453" height="413" alt="image" src="https://github.com/user-attachments/assets/f9d24ff0-0f27-4817-909c-6fff4b3d5d60" />
 
 
 ## Вывод
