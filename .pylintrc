@@ -1,4 +1,5 @@
+[MASTER]
+fail-under=7.0
+
 [FORMAT]
 max-line-length=100
-[MESSAGES CONTROL]
-disable=C0114,C0115,C0116
