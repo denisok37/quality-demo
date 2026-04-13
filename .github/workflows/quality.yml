@@ -1,17 +1,22 @@
 name: Quality Pipeline
 on: [push, pull_request]
+
 jobs:
-quality-check:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v4
-- name: Set up Python
-uses: actions/setup-python@v5
-with:
-python-version: '3.11'
-- name: Install dependencies
-run: pip install pylint pytest pytest-cov bandit
-- name: Lint with pylint
-run: pylint src/ --fail-under=7.0
-- name: Run tests with coverage
-run: pytest --cov=src --cov-fail-under=70 tests/
+  quality-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pylint pytest pytest-cov
+      
+      - name: Lint with pylint
+        run: pylint src/ --fail-under=7.0
+      
+      - name: Run tests with coverage
+        run: pytest --cov=src --cov-fail-under=70 tests/
