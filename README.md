@@ -1,4 +1,4 @@
-<img width="656" height="219" alt="image" src="https://github.com/user-attachments/assets/404a7091-a649-4b97-877b-84c04f575bba" /># Автоматизация контроля качества
+# Автоматизация контроля качества
 
 [![Quality Pipeline](https://github.com/denisok37/quality-demo/actions/workflows/quality.yml/badge.svg)](https://github.com/denisok37/quality-demo/actions/workflows/quality.yml)
 
@@ -11,7 +11,7 @@
 ## Скриншоты
 
 ### Успешный запуск пайплайна
-
+<img width="656" height="219" alt="image" src="https://github.com/user-attachments/assets/404a7091-a649-4b97-877b-84c04f575bba" />
 
 ### Сработавший Quality Gate (провал)
 
